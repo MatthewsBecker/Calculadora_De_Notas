@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="title"> Calculadora De Médias </div>
+
+        <div class="input">
+            <label>Nome:</label>
+            <input placeholder="Nome" type="text" id='nome'>
+        </div>
+
+        <div id="nota1" class="input">
+            <label>Nota1:</label>
+            <input placeholder="Ex: 6,5" type="number" id='nt1'>
+        </div>
+
+        <div id="nota2" class="input">
+          <label>Nota2:</label>
+          <input placeholder="Ex: 7,5" type="number" id='nt2'>
+        </div>
+
+        <div id="nota3" class="input">
+          <label>Nota3:</label>
+          <input placeholder="Ex: 8,0" type="number" id='nt3'>
+        </div>
+
+        <div id="nota4" class="input">
+            <label>Nota4:</label>
+            <input placeholder="Ex: 6,7" type="number" id='nt4'>
+        </div>
+
+        <button class="calcular" id='calcular' onclick="calcular()">Calcular</button>
+
+        <div class="resultado" id='resultado'></div>
+
+        <p class="descricao">Nota abaixo de 5 = Reprovado <br>Nota entre 5 e 7 = Recuperação <br>Nota acima de 7 = Aprovado</p>
+
+      </div>
+      
+    </main>
+    
+  </body>
+  <script src="assets/js/script.js"></script>
+</html>
