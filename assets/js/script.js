@@ -16,5 +16,4 @@ function calcular(){
     } else {
         resultado.textContent = `O aluno ${nome} está Aprovado com uma média de ${r}`
     }
-    
 }
